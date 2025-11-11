@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallis - Sabor Único | Comida Rápida</title>
+    <meta name="description" content="Descubre el sabor único de Wallis. Perros calientes, hamburguesas, pizzas y más con nuestras salsas secretas.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/image.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <img src="img/image.png" alt="Wallis Logo" class="logo-img" width="40" height="40">
+                    <span class="logo-text">Wallis</span>
+                </a>
+                
+                <nav class="nav" id="nav">
+                    <a href="#menu" class="nav-link">Menú</a>
+                    <a href="#salsas" class="nav-link">Salsas Secretas</a>
+                    <a href="#ubicacion" class="nav-link">Ubicación</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú" aria-expanded="false" aria-controls="nav">
+                    <span class="sr-only">Menú</span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Wallis: El Sabor Único que Enciende
+                        <span class="text-gradient">Maracay</span>
+                    </h1>
+                    <p class="hero-description">
+                        Descubre nuestras salsas secretas. Cada mordisco, una explosión de sabor inolvidable. ¡Pide ahora!
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">
+                            ¿Quiero Probar las Salsas! Ver Menú
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/foto trailer1.png" alt="Delicioso perro caliente Wallis" class="hero-img" width="800" height="600" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Menú</h2>
+                <p class="section-description">Descubre nuestros productos estrella preparados con ingredientes frescos</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="img/perro 1.png" alt="Perros Calientes" width="400" height="300" loading="lazy">
+                        <div class="menu-card-badge">Popular</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Perros Calientes</h3>
+                        <p class="menu-card-description">Perros calientes artesanales con nuestras salsas secretas y ingredientes premium</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">Desde $2.000</span>
+                            <button class="btn btn-secondary btn-sm">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="img/hamburguesa1.jpg" alt="Hamburguesas" width="400" height="300" loading="lazy">
+                        <div class="menu-card-badge">Nuevo</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Hamburguesas</h3>
+                        <p class="menu-card-description">Hamburguesas jugosas con carne 100% res, queso fundido y vegetales frescos</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">Desde $4.000</span>
+                            <button class="btn btn-secondary btn-sm">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="img/pizza1.jpg" alt="Pizzas" width="400" height="300" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Pizzas</h3>
+                        <p class="menu-card-description">Pizzas artesanales con masa fresca, salsa especial y los mejores ingredientes</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">Desde $8.000</span>
+                            <button class="btn btn-secondary btn-sm">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="img/pepito1.png" alt="Complementos" width="400" height="300" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Pepitos</h3>
+                        <p class="menu-card-description">Pan campecino sobado de 40 cm, 400G de Protenia, salsa especial y los mejores ingredientes </p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">Desde $13.000</span>
+                            <button class="btn btn-secondary btn-sm">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secret Sauces Section -->
+    <section class="section section-dark" id="salsas">
+        <div class="container">
+            <div class="sauces-content">
+                <div class="sauces-text">
+                    <h2 class="section-title">Nuestras Salsas Secretas</h2>
+                    <p class="section-description">El verdadero secreto de Wallis está en nuestras salsas únicas</p>
+                    <div class="sauces-list">
+                        <div class="sauce-item">
+                            <div class="sauce-icon">🔥</div>
+                            <div>
+                                <h3 class="sauce-name">Salsa Fuego</h3>
+                                <p class="sauce-description">Picante extremo para los más atrevidos</p>
+                            </div>
+                        </div>
+                        <div class="sauce-item">
+                            <div class="sauce-icon">🧀</div>
+                            <div>
+                                <h3 class="sauce-name">Salsa Queso Premium</h3>
+                                <p class="sauce-description">Cremosa y deliciosa, perfecta para todo</p>
+                            </div>
+                        </div>
+                        <div class="sauce-item">
+                            <div class="sauce-icon">🌿</div>
+                            <div>
+                                <h3 class="sauce-name">Salsa Verde Especial</h3>
+                                <p class="sauce-description">Fresca y aromática, nuestra receta secreta</p>
+                            </div>
+                        </div>
+                        <div class="sauce-item">
+                            <div class="sauce-icon">🍯</div>
+                            <div>
+                                <h3 class="sauce-name">Salsa BBQ Ahumada</h3>
+                                <p class="sauce-description">Dulce y ahumada, irresistible</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sauces-image">
+                    <img src="img/Menu1.jpg" alt="Salsas Secretas Wallis" width="500" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="section" id="ubicacion">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Encuéntranos</h2>
+                <p class="section-description">Visítanos en nuestras ubicaciones o pide a domicilio</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-card wide-card">
+                    <div class="location-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="location-details">
+                        <h3 class="location-title">Av universidad</h3>
+                        <p class="location-address">Diagonal a campo llano</p>
+                        <p class="location-hours">Lun - Dom: 11:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+                <div class="location-card wide-card">
+                    <div class="location-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="location-details">
+                        <h3 class="location-title">Domicilios</h3>
+                        <p class="location-address">Cobertura en toda la ciudad</p>
+                        <p class="location-hours">Tiempo estimado: 30-45 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section" id="quienes-somos">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Quiénes Somos</h2>
+                    <div class="about-description">
+                        <p>En <strong>Wallis</strong>, no solo servimos comida, creemos en ofrecer una experiencia culinaria que despierte tus sentidos y te haga volver por más. Nuestra pasión por los sabores auténticos y la calidad en cada ingrediente nos ha convertido en un referente de la comida rápida en Maracay.</p>
+                        
+                        <h3>Nuestra Historia</h3>
+                        <p>Desde nuestros humildes comienzos, nos hemos dedicado a perfeccionar el arte de la comida rápida, combinando recetas tradicionales con un toque innovador que nos distingue. Cada plato que servimos cuenta nuestra historia de dedicación y amor por la buena comida.</p>
+                        
+                        <h3>Nuestro Compromiso</h3>
+                        <p>En Wallis, nos enorgullece ofrecer productos frescos, preparados al momento y con los más altos estándares de calidad. Nuestro equipo está comprometido con brindarte un servicio excepcional que supere tus expectativas en cada visita.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <span class="feature-icon">🍽️</span>
+                                <span>Ingredientes Frescos</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">👨‍🍳</span>
+                                <span>Chefs Expertos</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">❤️</span>
+                                <span>Hecho con Pasión</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/onvresetzi.png" alt="Equipo Wallis" class="about-img" loading="lazy">
+                    <div class="about-overlay">
+                        <span>¡Conoce al equipo detrás de Wallis!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contacto">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Contáctanos</h2>
+                    <p class="section-description">¿Tienes preguntas? Estamos aquí para ayudarte</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-method-title">Teléfono</h3>
+                                <p class="contact-method-text">+58 0414 4743 422</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-method-title">Email</h3>
+                                <p class="contact-method-text">info@wallis.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-method-title">WhatsApp</h3>
+                                <p class="contact-method-text">+58 0414 4743 422</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" class="form-input" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="img/logo.png" alt="Wallis Logo" class="footer-logo" width="100" height="40" loading="lazy">
+                    <p class="footer-tagline">Sabor Único | Comida Rápida</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#menu" class="footer-link">Menú</a>
+                    <a href="#salsas" class="footer-link">Salsas Secretas</a>
+                    <a href="#ubicacion" class="footer-link">Ubicación</a>
+                    <a href="#contacto" class="footer-link">Contacto</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="TikTok">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Wallis. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Special Offer Banner -->
+    <div class="offer-banner" id="offerBanner">
+        <div class="offer-text">
+            🎉 ¡OFERTA ESPECIAL! Lleva 2 hamburguesas y llévate las papas GRATIS. Válido solo por 24h.
+        </div>
+        <button class="offer-close" id="closeOffer">×</button>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/584241234567?text=¡Hola%20Wallis!%20Quisiera%20hacer%20un%20pedido" class="whatsapp-float" target="_blank" aria-label="Chatea con nosotros por WhatsApp">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff">
+            <path d="M17.498 14.382a3.5 3.5 0 0 0-2.5-5.95A3.5 3.5 0 0 0 12.5 14.5v.5h-2v-.5a3.5 3.5 0 0 0-2.5-5.95 3.5 3.5 0 0 0-2.5 5.95v.5h-1v4h13v-4h-1v-.118zM12 1a7 7 0 0 1 7 7v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a7 7 0 0 1 7-7z"/>
+        </svg>
+        <span>¡Ordena Ahora!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
